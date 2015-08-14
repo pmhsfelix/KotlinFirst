@@ -3,7 +3,7 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:0.12.613'
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:0.12.613"
   }
 }
 
@@ -16,5 +16,10 @@ repositories {
 }
 
 dependencies {
-  compile 'org.jetbrains.kotlin:kotlin-stdlib:0.12.613'
+  compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.613"
+  
+  compile "joda-time:joda-time:2.8.2"
+  compile "org.eclipse.jetty:jetty-servlet:9.3.2.v20150730"
+  compile "org.slf4j:slf4j-api:1.7.12"
+  runtime "org.slf4j:slf4j-simple:1.7.12"
 }
