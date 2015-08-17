@@ -18,6 +18,8 @@ repositories {
 dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.613"
 
+  testCompile "junit:junit:4.11"
+
   compile "joda-time:joda-time:2.8.2"
   compile "org.eclipse.jetty:jetty-servlet:9.3.2.v20150730"
   compile "org.slf4j:slf4j-api:1.7.12"
